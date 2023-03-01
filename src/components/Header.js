@@ -12,17 +12,12 @@ const Header = () => {
       <header className="header-top-strip py-3">
         <div className="container-xxl">
           <div className="row">
-            <div className="d-none d-md-block col-md-6">
+            <div className="col-6">
               <p className="text-white mb-0">
                 Free Shipping Over $100 & Free Returns
               </p>
             </div>
-            <div className="col-4 d-md-none">
-              <h2 className="mb-0">
-                <Link className="text-white">Digitic</Link>
-              </h2>
-            </div>
-            <div className="col-8 col-md-6">
+            <div className="col-6">
               <p className="text-end text-white mb-0">
                 Hotline:
                 <a className="text-white" href="tel:+91 8264954234">
@@ -33,15 +28,15 @@ const Header = () => {
           </div>
         </div>
       </header>
-      <header className="header-upper">
+      <header className="header-upper py-3">
         <div className="container-xxl">
           <div className="row align-items-center">
-            <div className="d-none d-md-block col-md-2 col-xl-2 py-3">
-              <h2 className="mb-0">
-                <Link className="text-white">Digitic</Link>
+            <div className="col-2">
+              <h2>
+                <Link className="text-white">Dev Corner</Link>
               </h2>
             </div>
-            <div className="col-md-10 col-xl-5 py-3">
+            <div className="col-5">
               <div className="input-group">
                 <input
                   type="text"
@@ -55,9 +50,9 @@ const Header = () => {
                 </span>
               </div>
             </div>
-            <div className="col-md-12 col-xl-5">
-              <div className="header-upper-links row">
-                <div className="col-6 col-md-3 d-flex justify-content-center py-3">
+            <div className="col-5">
+              <div className="header-upper-links d-flex align-items-center justify-content-between">
+                <div>
                   <Link
                     to="/compare-product"
                     className="d-flex align-items-center gap-10 text-white"
@@ -68,7 +63,7 @@ const Header = () => {
                     </p>
                   </Link>
                 </div>
-                <div className="col-6 col-md-3 d-flex justify-content-center py-3">
+                <div>
                   <Link
                     to="/wishlist"
                     className="d-flex align-items-center gap-10 text-white"
@@ -79,19 +74,18 @@ const Header = () => {
                     </p>
                   </Link>
                 </div>
-                <div className="col-6 col-md-3 d-flex justify-content-center py-3">
+                <div>
                   <Link
                     to="/login"
                     className="d-flex align-items-center gap-10 text-white"
                   >
                     <img src={user} alt="user" />
                     <p className="mb-0">
-                      Log in <br />
-                      Account
+                      Log in <br /> My Account
                     </p>
                   </Link>
                 </div>
-                <div className="col-6 col-md-3 d-flex justify-content-center py-3">
+                <div>
                   <Link
                     to="/cart"
                     className="d-flex align-items-center gap-10 text-white"
@@ -113,7 +107,7 @@ const Header = () => {
           <div className="row">
             <div className="col-12">
               <div className="menu-bottom d-flex align-items-center gap-30">
-                <div className="d-none d-md-block">
+                <div>
                   <div className="dropdown">
                     <button
                       className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center"
