@@ -15,11 +15,6 @@ export const services = [
     tagline: "Support with an expert",
   },
   {
-    image: "images/service-04.png",
-    title: "Affordable Prices",
-    tagline: "Get Factory Default Price",
-  },
-  {
     image: "images/service-05.png",
     title: "Secure Payment",
     tagline: "100% Protected Payment",
