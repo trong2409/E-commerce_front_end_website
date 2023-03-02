@@ -180,6 +180,16 @@ footer .input-group-text {
 .small-banner {
   width: 49%;
 }
+@media only screen and (max-width: 720px) {
+  .small-banner-content h4,
+  .small-banner-content h5,
+  .small-banner-content p {
+    margin: 0;
+  }
+  .small-banner-content p {
+    display: none;
+  }
+}
 
 /* home wrapper 2 */
 .home-wrapper-2 {

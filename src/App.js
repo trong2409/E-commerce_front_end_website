@@ -6,21 +6,21 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import OurStore from "./pages/OurStore";
-// import Blog from "./pages/Blog";
-// import CompareProduct from "./pages/CompareProduct";
-// import Wishlist from "./pages/Wishlist";
-// import Login from "./pages/Login";
-// import Forgotpassword from "./pages/Forgotpassword";
-// import Signup from "./pages/Signup";
-// import Resetpassword from "./pages/Resetpassword";
-// import SingleBlog from "./pages/SingleBlog";
-// import PrivacyPolicy from "./pages/PrivacyPolicy";
-// import RefundPloicy from "./pages/RefundPloicy";
-// import ShippingPolicy from "./pages/ShippingPolicy";
-// import TermAndContions from "./pages/TermAndContions";
-// import SingleProduct from "./pages/SingleProduct";
-// import Cart from "./pages/Cart";
-// import Checkout from "./pages/Checkout";
+import Blog from "./pages/Blog";
+import CompareProduct from "./pages/CompareProduct";
+import Wishlist from "./pages/Wishlist";
+import Login from "./pages/Login";
+import Forgotpassword from "./pages/Forgotpassword";
+import Signup from "./pages/Signup";
+import Resetpassword from "./pages/Resetpassword";
+import SingleBlog from "./pages/SingleBlog";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import RefundPloicy from "./pages/RefundPloicy";
+import ShippingPolicy from "./pages/ShippingPolicy";
+import TermAndContions from "./pages/TermAndContions";
+import SingleProduct from "./pages/SingleProduct";
+import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout";
 function App() {
   return (
     <>
@@ -31,7 +31,7 @@ function App() {
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
             <Route path="product" element={<OurStore />} />
-            {/* <Route path="product/:id" element={<SingleProduct />} />
+            <Route path="product/:id" element={<SingleProduct />} />
             <Route path="blogs" element={<Blog />} />
             <Route path="blog/:id" element={<SingleBlog />} />
             <Route path="cart" element={<Cart />} />
@@ -45,7 +45,7 @@ function App() {
             <Route path="privacy-policy" element={<PrivacyPolicy />} />
             <Route path="refund-policy" element={<RefundPloicy />} />
             <Route path="shipping-policy" element={<ShippingPolicy />} />
-            <Route path="term-conditions" element={<TermAndContions />} /> */}
+            <Route path="term-conditions" element={<TermAndContions />} />
           </Route>
         </Routes>
       </BrowserRouter>

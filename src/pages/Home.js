@@ -10,9 +10,9 @@ import { services } from "../utils/Data";
 const Home = () => {
   return (
     <>
-      <Container class1="home-wrapper-1 py-5">
+      <Container class1="home-wrapper-1">
         <div className="row">
-          <div className="col-6">
+          <div className="col-12 col-lg-6 pt-5">
             <div className="main-banner position-relative ">
               <img
                 src="images/main-banner-1.jpg"
@@ -27,9 +27,9 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col-6">
-            <div className="d-flex flex-wrap gap-10 justify-content-between align-items-center">
-              <div className="small-banner position-relative">
+          <div className="col-12 col-lg-6 pt-5">
+            <div className="row">
+              <div className="small-banner col-6 py-2 position-relative">
                 <img
                   src="images/catbanner-01.jpg"
                   className="img-fluid rounded-3"
@@ -43,7 +43,7 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="small-banner position-relative">
+              <div className="small-banner col-6 py-2 position-relative">
                 <img
                   src="images/catbanner-02.jpg"
                   className="img-fluid rounded-3"
@@ -57,7 +57,7 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="small-banner position-relative ">
+              <div className="small-banner col-6 py-2 position-relative">
                 <img
                   src="images/catbanner-03.jpg"
                   className="img-fluid rounded-3"
@@ -71,7 +71,7 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="small-banner position-relative ">
+              <div className="small-banner col-6 py-2 position-relative">
                 <img
                   src="images/catbanner-04.jpg"
                   className="img-fluid rounded-3"
@@ -89,6 +89,7 @@ const Home = () => {
           </div>
         </div>
       </Container>
+
       <Container class1="home-wrapper-2 py-5">
         <div className="row">
           <div className="col-12">
@@ -108,7 +109,8 @@ const Home = () => {
           </div>
         </div>
       </Container>
-      <Container class1="home-wrapper-2 py-5">
+
+      {/* <Container class1="home-wrapper-2 py-5">
         <div className="row">
           <div className="col-12">
             <div className="categories d-flex justify-content-between flex-wrap align-items-center">
@@ -172,6 +174,7 @@ const Home = () => {
           </div>
         </div>
       </Container>
+
       <Container class1="featured-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
@@ -183,6 +186,7 @@ const Home = () => {
           <ProductCard />
         </div>
       </Container>
+
       <Container class1="famous-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-3">
@@ -247,6 +251,7 @@ const Home = () => {
           </div>
         </div>
       </Container>
+
       <Container class1="special-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
@@ -260,6 +265,7 @@ const Home = () => {
           <SpecialProduct />
         </div>
       </Container>
+
       <Container class1="popular-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
@@ -273,6 +279,7 @@ const Home = () => {
           <ProductCard />
         </div>
       </Container>
+
       <Container class1="marque-wrapper home-wrapper-2 py-5">
         <div className="row">
           <div className="col-12">
@@ -307,6 +314,7 @@ const Home = () => {
           </div>
         </div>
       </Container>
+
       <Container class1="blog-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
@@ -327,7 +335,7 @@ const Home = () => {
             <BlogCard />
           </div>
         </div>
-      </Container>
+      </Container> */}
     </>
   );
 };
